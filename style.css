@@ -8,7 +8,9 @@
       border-bottom: 3px;
       border-bottom-style: solid;
       border-bottom-color: #000;
+     
 }
+
 .logo{
       width: 300px;
       height: 50px;
@@ -25,16 +27,17 @@
       background-color: #000;
       flex: 1;
       padding-top: 12px;
-      padding-left: 50px;
+      padding-left: 400px;
      
 }
 
 .menu a{
-     padding-left: 80px;
+     padding-left: 30px;
      text-decoration: none;
      font-size: 18px;
      color: #fff;
      font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -43,33 +46,87 @@
       transition: 0.50s;
 }
 
+ .heading-form{
+      flex: 1;
+      background-color: #000;
+      padding-top: 9px;
+ }
+
+ .heading-form button{
+      width: 100px;
+      height: 35px;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #000;
+      color: rgb(192, 138, 118);
+      border-radius: 10px;
+      border-width: 2px;
+      border-color: #aca9a9;
+      border-style: solid;
+      cursor: pointer;
+ }
+
+ .heading-form button:hover{
+      background-color: rgb(199, 105, 71);
+      transition: 0.50s;
+      color: #fff;
+      transition: 0.50s;
+ }
+ .heading-form button a{
+      text-decoration: none;
+      color: #fff;
+ }
+
+
 .background{
-      display: flex;
-      flex-direction: row;
       margin-top: 50px;
+      justify-content: center;
+      align-items: center;
+      
       
 }
 
+body {
+      background-image: url(game-at-home-asus.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background
+}
+
 .img{
-     width: 600px; 
-     height: 600px;
-     cursor: pointer;
+      border-width: 3px;
+      border-style: solid;
+      border-color: #fff;
+      width: 300px; 
+      height: 300px;
+      cursor: pointer;
+      border-radius: 159px;
+      margin-left: 490px;
+      margin-top: 70px;
+     
 }
 
 .background-discription{
       margin-left: 40px;
+      padding-top: 30px;
+     
 }
 
 .background-discription h1{
-      font-size: 50px;
-      font-weight: bold;
-     
+      font-size: 30px;
+      font-weight: lighter;
+      color: #fff;
+      font-family: cursive;  
+      margin-bottom: 3px;
+      margin-left: 400px;
       
 }
 
 .background-discription p{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 19px;
-      line-height: 25px;
+      font-family: monospace;
+      font-size: 20px;
+      margin-top: 5px;
+      margin-left: 540px;
+      color: #fff;
 }
-
